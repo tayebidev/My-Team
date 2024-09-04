@@ -1,6 +1,7 @@
 @media screen and (max-width: 600px) {
-    header{
-        padding: 10px;
+    .header, main{
+        padding:0 20px  ;
+        margin: auto 0;
     }
     .header-container{
         flex-direction: column;
@@ -8,5 +9,21 @@
     .header-who{
         margin-top: 30px;
         margin-bottom: 10px;
+    }
+    main{
+        padding: 10px;
+    }
+    .crew-container{
+        display:grid;
+        grid-template-columns: repeat(2,1fr);
+        gap: 40px;
+    }
+    
+    .crew-desg {
+        left: 70%;
+        top:25%;
+    }
+    footer{
+        font-size: 20px;
     }
 }
